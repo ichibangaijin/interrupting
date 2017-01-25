@@ -1,10 +1,46 @@
-
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
+.headerImage{
+    width: 500px;
+    display: inline-block;
+    float: right;
+    margin-top: -200px;
+    margin-right: 5%;
+    box-shadow: 5px 5px 20px black;
+}
 
+.submitbtn{
+    background-color: rgb(15, 118, 108);
+    color: white;
+}
+
+.btnblue{
+    background-color: #0f7269;
+    color: white;
+}
+
+@media(min-width: 1200px){
+    .headerImage{
+        width: 500px;
+        margin-top: -200px;
+        margin-right: 10%;
+    }
+}
+
+@media(max-width: 1200px){
+    .headerImage{
+        width: 400px;
+        margin-top: -215px
+    }
+}
+
+@media(max-width: 1080px){
+    .headerImage{
+        display: none;
+    }
+}
 
 
 
