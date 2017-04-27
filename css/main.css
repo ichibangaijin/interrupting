@@ -3,12 +3,26 @@
    ========================================================================== */
 
 .headerImage{
-    width: 500px;
-    display: inline-block;
-    float: right;
-    margin-top: -200px;
-    margin-right: 5%;
-    box-shadow: 5px 5px 20px black;
+   float:right;
+  
+
+   
+}
+
+button{
+  font-size:100px;
+  color;black;
+  background:lime;
+}
+
+.marquee h1{
+  font-size:100px;
+ 
+  
+}
+
+.jumbotron{
+  height:400px;
 }
 
 .submitbtn{
